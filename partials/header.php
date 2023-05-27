@@ -28,7 +28,7 @@ if(isset($_SESSION['user-id'])){
   <nav>
     <div class="container nav__container">
     <img src="imagesR/logoed2.png" style="height: 70px; width: 100px;">
-        <a href="<?= ROOT_URL ?>" class="nav__logo">ibelieve1~</a>
+        <a href="<?= ROOT_URL ?>" class="nav__logo">ibelieve</a>
         <ul class="nav__items">
             <li><a href="blog.php">Blog</a></li>
             <li><a href="<?= ROOT_URL ?>about.php">About</a></li>
