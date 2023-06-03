@@ -31,9 +31,9 @@ if(isset($_SESSION['user-id'])){
         <a href="<?= ROOT_URL ?>" class="nav__logo">ibelieve</a>
         <ul class="nav__items">
             <li><a href="blog.php">Blog</a></li>
-            <li><a href="<?= ROOT_URL ?>about.php">About</a></li>
-            <li><a href="<?= ROOT_URL ?>services.php">Services</a></li>
-            <li><a href="<?= ROOT_URL ?>contact.php">Contact</a></li>
+            <li><a href="<?= ROOT_URL ?>">About</a></li>
+            <li><a href="<?= ROOT_URL ?>">Services</a></li>
+            <li><a href="<?= ROOT_URL ?>">Contact</a></li>
             <?php if(isset($_SESSION['user-id'])){?>
                 <li class="nav__profile">
                 <div class="avatar">
