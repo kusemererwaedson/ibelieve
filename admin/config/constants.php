@@ -15,3 +15,8 @@ define('DB_NAME', 'hakacdmf_edblog');
 // define('DB_PASS', 'edson2000');
 // define('DB_NAME', 'hakacdmf_edblog');
 
+
+//// ALTERING TABLES SQL
+// ALTER TABLE posts ADD CONSTRAINT FK_blog_category FOREIGN KEY (category_id) REFERENCES categories (id) ON DELETE SET NULL;
+
+// ALTER TABLE posts ADD CONSTRAINT FK_blog_author FOREIGN KEY (author_id) REFERENCES users (id) ON DELETE CASCADE;

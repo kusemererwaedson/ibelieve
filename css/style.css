@@ -188,6 +188,7 @@ opacity: 1;
 /* =============================== FEATURED ============================= */
 .featured{
     margin-top: 8rem;
+
 }
 .featured__container{
      display: grid;
@@ -199,6 +200,7 @@ opacity: 1;
 }
 /* =============================== POSTS ============================= */
 .posts__container{
+    margin-top: 20rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5rem;

@@ -26,7 +26,7 @@ if(isset($_SESSION['user-id'])){
 </head>
 <body>
   <nav>
-    <div class="container nav__container">
+    <div class="container nav__container" style="margin-bottom: 200px;">
     <img src="imagesR/logoed2.png" style="height: 70px; width: 100px;">
         <a href="<?= ROOT_URL ?>" class="nav__logo">ibelieve</a>
         <ul class="nav__items">

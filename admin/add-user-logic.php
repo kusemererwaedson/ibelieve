@@ -45,7 +45,8 @@ require 'config/database.php';
             $user_check_result = mysqli_query($connection,$user_check_query);
             if(mysqli_num_rows($user_check_result) > 0){
                 $_SESSION['add-user'] = "Username or Email already exists";
-            }else{
+            }
+            else{
                 //WORK ON AVATAR
                 //rename avatar
                 $time = time(); // make each image name unique using current timestamp
