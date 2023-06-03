@@ -54,7 +54,7 @@ $posts = mysqli_query($connection,$query);
  </section>
  <?php endif ?> 
  <!--============== END OF FEATURED ===============-->
- <div style="height: 100px;">
+ <div style="height: 40px;">
 
 </div>
 
