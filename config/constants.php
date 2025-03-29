@@ -9,10 +9,11 @@
 
 
 // when offline 
+// when online
 session_start();
 define('ROOT_URL', 'http://localhost/ibelieve/');
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
+define('DB_USER', 'hakabvzf_edson');
 define('DB_PASS', '');
 define('DB_NAME', 'hakabvzf_edblog');
 
