@@ -9,7 +9,7 @@
 
 // when online
 session_start();
-define('ROOT_URL', 'http://localhost/ibelieve/');
+define('ROOT_URL', 'http://ibelieve.hakateq.com/');
 define('DB_HOST', 'localhost');
 define('DB_USER', 'hakabvzf_edson');
 define('DB_PASS', 'Eddiespacks2000@');
